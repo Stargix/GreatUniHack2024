@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensajes</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Asegúrate de agregar tu CSS -->
+</head>
+<body class="flex min-h-screen flex-col bg-gradient-to-b from-purple-50 to-white p-4">
+    <div class="mx-auto w-full max-w-md space-y-4">
+        <div class="flex items-center justify-between">
+            <h1 class="text-xl font-semibold">Messages</h1>
+            <div class="h-8 w-8 rounded-full bg-zinc-100"></div>
+        </div>
+
+        <div class="w-full whitespace-nowrap overflow-x-auto">
+            <div class="flex w-full gap-3 py-2">
+                <div class="flex flex-col items-center gap-1">
+                    <div class="relative">
+                        <img alt="Daniel" class="h-12 w-12 rounded-full object-cover" height="48" src="/placeholder.svg?height=40&width=40" width="48">
+                        <div class="absolute right-0 top-0 h-3 w-3 rounded-full border-2 border-white bg-green-500"></div>
+                    </div>
+                    <span class="text-sm">Daniel</span>
+                </div>
+                <div class="flex flex-col items-center gap-1">
+                    <div class="relative">
+                        <img alt="Nextlo" class="h-12 w-12 rounded-full object-cover" height="48" src="/placeholder.svg?height=40&width=40" width="48">
+                        <div class="absolute right-0 top-0 h-3 w-3 rounded-full border-2 border-white bg-green-500"></div>
+                    </div>
+                    <span class="text-sm">Nextlo</span>
+                </div>
+                <div class="flex flex-col items-center gap-1">
+                    <div class="relative">
+                        <img alt="Anna" class="h-12 w-12 rounded-full object-cover" height="48" src="/placeholder.svg?height=40&width=40" width="48">
+                        <div class="absolute right-0 top-0 h-3 w-3 rounded-full border-2 border-white bg-green-500"></div>
+                    </div>
+                    <span class="text-sm">Anna</span>
+                </div>
+                <div class="flex flex-col items-center gap-1">
+                    <div class="relative">
+                        <img alt="Nelly" class="h-12 w-12 rounded-full object-cover" height="48" src="/placeholder.svg?height=40&width=40" width="48">
+                        <div class="absolute right-0 top-0 h-3 w-3 rounded-full border-2 border-white bg-green-500"></div>
+                    </div>
+                    <span class="text-sm">Nelly</span>
+                </div>
+                <div class="flex flex-col items-center gap-1">
+                    <div class="flex h-12 w-12 items-center justify-center rounded-full bg-zinc-100">
+                        <span class="text-sm">+15</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="relative">
+            <input class="pl-8" placeholder="Search or start of message" type="search">
+            <svg class="absolute left-2.5 top-2.5 h-4 w-4 text-muted-foreground" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 4a6 6 0 100 12 6 6 0 000-12zM21 21l-4.35-4.35"></path>
+            </svg>
+        </div>
+
+        <div class="space-y-4">
+            <div>
+                <h2 class="mb-3 text-sm font-medium">Pinned Chats</h2>
+                <div class="grid gap-3 sm:grid-cols-2">
+                    <div class="relative overflow-hidden p-3 border">
+                        <div class="absolute right-2 top-2 h-2 w-2 rounded-full bg-green-500"></div>
+                       
